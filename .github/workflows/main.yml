@@ -38,3 +38,4 @@ jobs:
         az spring-cloud app deploy -n gateway --jar-path ${{ github.workspace }}/gateway/target/gateway.jar
         az spring-cloud app deploy -n account-service --jar-path ${{ github.workspace }}/account-service/target/account-service.jar
         az spring-cloud app deploy -n auth-service --jar-path ${{ github.workspace }}/auth-service/target/auth-service.jar
+        az spring-cloud app deploy -n notification-service --jar-path ${{ github.workspace }}/auth-service/target/notification-service.jar
