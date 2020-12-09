@@ -2,8 +2,8 @@ name: AzureSpringCloud
 on: push
 
 env:
-  GROUP: <resource group name>
-  SERVICE_NAME: <service instance name>
+  GROUP: springcloud
+  SERVICE_NAME: lp-piggymetrics
 
 jobs:
   build-and-deploy:
